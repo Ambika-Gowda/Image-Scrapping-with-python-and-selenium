@@ -9,9 +9,9 @@ The above code base is written in python and downloads images from Google with t
 
 ### -> Steps for setting up Google Chrome browser driver:
 
-1.Install Google Chrome (skip if its already installed).
+1. Install Google Chrome (skip if its already installed).
 
-2.Identify your Chrome version by typing below command. 
+2. Identify your Chrome version by typing below command. 
 ```
  $ google-chrome --version
  
@@ -22,12 +22,12 @@ and displays like this
  
 ```
 
-3.Download corresponding ChromeDriver from below link.
+3. Download corresponding ChromeDriver from below link.
 * <a href='https://chromedriver.chromium.org/downloads'>Google Chrome driver link</a><br>
 
-4.Unzip the chromedriver.zip
+4. Unzip the chromedriver.zip
 
-5.Move the file to /usr/bin directory 
+5. Move the file to /usr/bin directory 
 ```
  $ sudo mv chromedriver /usr/bin
  
@@ -37,7 +37,7 @@ then move to below folder
  $ cd /usr/bin
  
 ```
-6.Now, you would need to run something like
+6. Now, you would need to run something like
 ```
  $ sudo chmod a+x chromedrive
  
@@ -57,8 +57,8 @@ the above file will download all the required images
 
 After downloading the required packages
 The code has two parts
-1.Searching for a specific term & get image links
-2.Downloading the images
+1. Searching for a specific term & get image links
+2. Downloading the images
 
 The function find_and_download expects four input parameters:
 search_term : Search term, like Cat
@@ -73,12 +73,12 @@ Eg: find_and_download(search_term ="Cat", \
                         
  Make the above changes in code and save it
  
- Finally run the below command to run the script
+ 3. Finally run the below command to run the script
  ```
  $ python3 scrap_image.py
  
 ```
- After running the above code, the code automates to open Google browser as below
+ 4. After running the above code, the code automates to open Google browser as below
  <p align="center">
   <img src="./images/cat/Cat-search.png" width=676 height=400>
 </p>
