@@ -29,17 +29,17 @@ and displays like this
 
 5.Move the file to /usr/bin directory 
 ```
-  sudo mv chromedriver /usr/bin
+ $ sudo mv chromedriver /usr/bin
  
 ```
 then move to below folder
 ```
-  cd /usr/bin
+ $ cd /usr/bin
  
 ```
 6.Now, you would need to run something like
 ```
-  sudo chmod a+x chromedrive
+ $ sudo chmod a+x chromedrive
  
 ```
 and mark it executable.
@@ -47,11 +47,17 @@ and mark it executable.
 Steps to download required packages
 1.Install python3
 ```
-  sudo apt update
+ $ sudo apt update
  
 ```
 ```
-  sudo apt install python3.7
+ $ sudo apt install python3.7
  
 ```
-2.
+2.Installing required packages
+
+1. Clone the code and open the terminal and type the following command
+```
+ $ bash requirements.sh
+ 
+```
