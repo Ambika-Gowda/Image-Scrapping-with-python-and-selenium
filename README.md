@@ -7,7 +7,7 @@ The above code base is written in python and downloads images from Google with t
 
 Setup:
 
-Steps:
+Steps for setting up Google Chrome browser driver:
 1.Install Google Chrome (skip if its already installed).
 
 2.Identify your Chrome version by typing below command. 
@@ -31,6 +31,7 @@ and displays like this
   sudo mv chromedriver /usr/bin
  
 ```
+then move to below folder
 ```
   cd /usr/bin
  
