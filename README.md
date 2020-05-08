@@ -32,7 +32,7 @@ and displays like this
  $ sudo mv chromedriver /usr/bin
  
 ```
-then move to below folder
+ then move to below folder
 ```
  $ cd /usr/bin
  
@@ -90,5 +90,5 @@ Then the images in stored in cat folder as below
   <img src="./images/cat/Cat.png" width=600 height=300>
 </p>
 
-Through above code you can download image with search_term of your choice
+Through above code you can download image with search_term of your choice<br/>
 Happy Downloading !!
