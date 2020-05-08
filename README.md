@@ -1,7 +1,7 @@
 # Image-Scrapping-with-python-and-selenium
 A python codebase that downloads images from Google Browser with the search term mentioned.
 
-The above code base is written in python and downloads images from Google with the search term
+The above code base is written in python and downloads images from Google with the search term of your choice.
 
 ## Table of contents
 
