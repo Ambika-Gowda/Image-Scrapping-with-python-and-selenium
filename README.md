@@ -61,9 +61,13 @@ The code has two parts
 2. Downloading the images
 
 The function find_and_download expects four input parameters:
+
 search_term : Search term, like Cat
+
 driver_path : instantiated Webdriver
+
 target_path : images folder
+
 number_images : No of images to download
 
 Eg: find_and_download(search_term ="Cat", \
