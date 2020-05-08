@@ -21,5 +21,23 @@ and displays like this
  
 ```
 
-3.Download der corresponding ChromeDriver from below link.
+3.Download corresponding ChromeDriver from below link.
 * <a href='https://chromedriver.chromium.org/downloads'>Google Chrome driver link</a><br>
+
+4.Unzip the chromedriver.zip
+
+5.Move the file to /usr/bin directory 
+```
+  sudo mv chromedriver /usr/bin
+ 
+```
+```
+  cd /usr/bin
+ 
+```
+6.Now, you would need to run something like
+```
+  sudo chmod a+x chromedrive
+ 
+```
+and mark it executable.
