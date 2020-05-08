@@ -87,4 +87,5 @@ Then the images in stored in cat folder as below
   <img src="./images/cat/Cat.png" width=600 height=300>
 </p>
 
-Through above code you can download image with search_term
+Through above code you can download image with search_term of your choice
+Happy Downloading !!
