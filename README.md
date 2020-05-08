@@ -53,3 +53,29 @@ and mark it executable.
 ```
 the above file will download all the required images
 
+Running
+
+After downloading the required packages
+The code has two parts
+1.Searching for a specific term & get image links
+2.Downloading the images
+
+The function find_and_download expects four input parameters:
+search_term : Search term, like Cat
+driver_path : instantiated Webdriver
+target_path : images folder
+number_images : No of images to download
+
+Eg: find_and_download(search_term ="Cat", \
+                        driver_path = "/usr/bin/chromedriver", \
+                        target_path='./images', \
+                        number_images=100)
+                        
+ Make the above changes in code and save it
+ 
+ Finally run the below command to run the script
+ ```
+ $ python3 scrap_image.py
+ 
+```
+ 
