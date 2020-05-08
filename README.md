@@ -67,10 +67,12 @@ driver_path : instantiated Webdriver<br/>
 target_path : images folder<br/>
 number_images : No of images to download<br/>
 
+```
 Eg: find_and_download(search_term ="Cat", \
                         driver_path = "/usr/bin/chromedriver", \
                         target_path='./images', \
                         number_images=100)
+```
                         
  Make the above changes in code and save it
  
