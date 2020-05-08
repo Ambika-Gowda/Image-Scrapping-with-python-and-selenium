@@ -44,20 +44,12 @@ then move to below folder
 ```
 and mark it executable.
 
-Steps to download required packages
-1.Install python3
-```
- $ sudo apt update
- 
-```
-```
- $ sudo apt install python3.7
- 
-```
-2.Installing required packages
+2.Steps to download required packages
 
 1. Clone the code and open the terminal and type the following command
 ```
  $ bash requirements.sh
  
 ```
+the above file will download all the required images
+
