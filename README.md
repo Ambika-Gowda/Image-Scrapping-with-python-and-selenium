@@ -84,5 +84,5 @@ Eg: find_and_download(search_term ="Cat", \
 </p>
 Then the images in stored in cat folder as below
 <p align="center">
-  <img src="./images/cat/Cat.png" width=676 height=400>
+  <img src="./images/cat/Cat.png" width=600 height=200>
 </p>
