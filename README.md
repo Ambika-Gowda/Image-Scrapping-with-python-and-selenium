@@ -78,4 +78,11 @@ Eg: find_and_download(search_term ="Cat", \
  $ python3 scrap_image.py
  
 ```
- 
+ After running the above code, the code automates to open Google browser as below
+ <p align="center">
+  <img src="./images/cat/Cat-search.png" width=676 height=400>
+</p>
+Then the images in stored in cat folder as below
+<p align="center">
+  <img src="./images/cat/Cat.png" width=676 height=400>
+</p>
