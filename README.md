@@ -62,13 +62,10 @@ The code has two parts
 
 The function find_and_download expects four input parameters:
 
-search_term : Search term, like Cat
-
-driver_path : instantiated Webdriver
-
-target_path : images folder
-
-number_images : No of images to download
+search_term : Search term, like Cat<br/>
+driver_path : instantiated Webdriver<br/>
+target_path : images folder<br/>
+number_images : No of images to download<br/>
 
 Eg: find_and_download(search_term ="Cat", \
                         driver_path = "/usr/bin/chromedriver", \
