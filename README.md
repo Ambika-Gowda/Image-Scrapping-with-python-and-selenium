@@ -5,7 +5,7 @@ The above code base is written in python and downloads images from Google with t
 
 ## Table of contents
 
-##Setup:
+## Setup:
 
 Steps for setting up Google Chrome browser driver:
 
@@ -43,3 +43,15 @@ then move to below folder
  
 ```
 and mark it executable.
+
+Steps to download required packages
+1.Install python3
+```
+  sudo apt update
+ 
+```
+```
+  sudo apt install python3.7
+ 
+```
+2.
